@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 80%);
-    background-size: cover;
-    background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 80%);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .glass {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 25px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 500px;
-    min-width: 400px;
-    height: 900px;
-    min-height: 900px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  min-width: 400px;
+  height: 900px;
+  min-height: 900px;
 }
 
-.head{
-    height: 80px;
-    font-family: 'Qwitcher Grypen', cursive;
-    margin-top: 1.5rem;
-    cursor: pointer;
+.head {
+  height: 80px;
+  font-family: "Qwitcher Grypen", cursive;
+  margin-top: 1.5rem;
+  cursor: pointer;
 }
-.h{
-    font-size: 60px;
-    color: white;
-}
-
-.icon{
-    margin-right: 15px;
+.h {
+  font-size: 60px;
+  color: white;
 }
 
-.img{
-    margin-top: 50px;
-    cursor: none;
+.icon {
+  margin-right: 15px;
 }
 
-.pillb{
-    width: 412px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(255, 255,255,0.31);
-    border-radius: 50px;
-    margin-top: 2rem;
-    background-color: rgba(250, 250, 250, 0.3);
-    color: #3a3b3c;
-    font-family: "Poppins, sans-serif";
-    transition: transform 0.2s ease;
+.img {
+  margin-top: 50px;
+  cursor: none;
 }
 
-.pillb:hover{
-    cursor: pointer;
-    background-color: rgba(250, 250, 250, 0.5);
-    color: black;
-    transform: scale(1.03);
-    font-size: 18px;
+.pillb {
+  width: 412px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  border-radius: 50px;
+  margin-top: 2rem;
+  background-color: rgba(250, 250, 250, 0.3);
+  color: #3a3b3c;
+  font-family: "Poppins, sans-serif";
+  transition: transform 0.2s ease;
 }
 
-.txtt{
-    text-decoration: none;
+.pillb:hover {
+  cursor: pointer;
+  background-color: rgba(250, 250, 250, 0.5);
+  color: black;
+  transform: scale(1.03);
+  font-size: 18px;
+}
+
+.txtt {
+  text-decoration: none;
 }
